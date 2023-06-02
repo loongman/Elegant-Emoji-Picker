@@ -45,8 +45,8 @@ class EmojiCell: UICollectionViewCell {
         }
     }
     
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        label.font = .systemFont(ofSize: self.frame.width*0.7)
-    }
+//    override func layoutSubviews() {
+//        super.layoutSubviews()
+//        label.font = .systemFont(ofSize: self.frame.width*0.7)
+//    }
 }

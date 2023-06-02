@@ -3,10 +3,10 @@
     {
       "identity" : "elegant-emoji-picker",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Finalet/Elegant-Emoji-Picker",
+      "location" : "https://github.com/loongman/Elegant-Emoji-Picker",
       "state" : {
-        "branch" : "main",
-        "revision" : "5d2d9c6e7f65d6ec9ae69153809c0eb3c49da9b0"
+        "branch" : "memory",
+        "revision" : "daa3dd4f2abe11f569467a3f9a675c61183ddada"
       }
     }
   ],

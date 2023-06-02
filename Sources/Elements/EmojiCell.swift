@@ -24,7 +24,8 @@ class EmojiCell: UICollectionViewCell {
         self.addGestureRecognizer(longPress)
         
         label.textAlignment = .center
-        label.adjustsFontSizeToFitWidth = true
+        label.text = "A"
+//        label.adjustsFontSizeToFitWidth = true
         self.addSubview(label, anchors: LayoutAnchor.fullFrame)
     }
     
@@ -32,7 +33,7 @@ class EmojiCell: UICollectionViewCell {
         self.emoji = emoji
         self.emojiPicker = emojiPicker
         
-        label.text = emoji.emoji
+//        label.text = emoji.emoji
     }
     
     @objc func LongPress (_ sender: UILongPressGestureRecognizer) {
